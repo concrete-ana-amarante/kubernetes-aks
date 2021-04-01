@@ -8,5 +8,5 @@ spec:
     - port: 80
       targetPort: 8180
   selector:
-    app: label-pod-homeapp-prod
+    app: label-pod-homeapp-prod-aks
     

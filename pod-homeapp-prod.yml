@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: homeapp-prod
+  name: homeapp-prod-aks
   labels:
-    app: label-pod-homeapp-prod
+    app: label-pod-homeapp-prod-aks
 spec:
   containers:
-    - name: container-pod-homeapp-prod
+    - name: container-pod-homeapp-prod-aks
       image: tigo17/home-app
       ports:
         - containerPort: 8180
